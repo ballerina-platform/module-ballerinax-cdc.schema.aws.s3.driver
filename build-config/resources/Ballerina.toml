@@ -1,0 +1,155 @@
+[package]
+org = "ballerinax"
+name = "cdc.s3.driver"
+version = "@toml.version@"
+distribution = "2201.12.0"
+authors = ["Ballerina"]
+repository = "https://github.com/ballerina-platform/module-ballerinax-cdc.s3.driver"
+license = ["Apache-2.0"]
+
+[platform.java21]
+graalvmCompatible = true
+
+[[platform.java21.dependency]]
+groupId = "io.ballerina.lib"
+artifactId = "cdc.s3.driver-native"
+version = "@toml.version@"
+path = "../native/build/libs/cdc.s3.driver-native-@toml.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "io.debezium"
+artifactId = "debezium-storage-s3"
+version = "@debezium.version@"
+path = "./lib/debezium-storage-s3-@debezium.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "s3"
+version = "@aws.sdk.version@"
+path = "./lib/s3-@aws.sdk.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "aws-xml-protocol"
+version = "@aws.sdk.version@"
+path = "./lib/aws-xml-protocol-@aws.sdk.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "aws-query-protocol"
+version = "@aws.sdk.version@"
+path = "./lib/aws-query-protocol-@aws.sdk.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "protocol-core"
+version = "@aws.sdk.version@"
+path = "./lib/protocol-core-@aws.sdk.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "aws-core"
+version = "@aws.sdk.version@"
+path = "./lib/aws-core-@aws.sdk.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "auth"
+version = "@aws.sdk.version@"
+path = "./lib/auth-@aws.sdk.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "sdk-core"
+version = "@aws.sdk.version@"
+path = "./lib/sdk-core-@aws.sdk.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "regions"
+version = "@aws.sdk.version@"
+path = "./lib/regions-@aws.sdk.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "profiles"
+version = "@aws.sdk.version@"
+path = "./lib/profiles-@aws.sdk.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "arns"
+version = "@aws.sdk.version@"
+path = "./lib/arns-@aws.sdk.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "json-utils"
+version = "@aws.sdk.version@"
+path = "./lib/json-utils-@aws.sdk.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "third-party-jackson-core"
+version = "@aws.sdk.version@"
+path = "./lib/third-party-jackson-core-@aws.sdk.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "http-client-spi"
+version = "@aws.sdk.version@"
+path = "./lib/http-client-spi-@aws.sdk.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "metrics-spi"
+version = "@aws.sdk.version@"
+path = "./lib/metrics-spi-@aws.sdk.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "utils"
+version = "@aws.sdk.version@"
+path = "./lib/utils-@aws.sdk.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "annotations"
+version = "@aws.sdk.version@"
+path = "./lib/annotations-@aws.sdk.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "apache-client"
+version = "@aws.sdk.version@"
+path = "./lib/apache-client-@aws.sdk.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.eventstream"
+artifactId = "eventstream"
+version = "@eventstream.version@"
+path = "./lib/eventstream-@eventstream.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "org.reactivestreams"
+artifactId = "reactive-streams"
+version = "@reactive.streams.version@"
+path = "./lib/reactive-streams-@reactive.streams.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "org.apache.httpcomponents"
+artifactId = "httpclient"
+version = "@httpclient.version@"
+path = "./lib/httpclient-@httpclient.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "org.apache.httpcomponents"
+artifactId = "httpcore"
+version = "@httpcore.version@"
+path = "./lib/httpcore-@httpcore.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "commons-logging"
+artifactId = "commons-logging"
+version = "@commons.logging.version@"
+path = "./lib/commons-logging-@commons.logging.version@.jar"
