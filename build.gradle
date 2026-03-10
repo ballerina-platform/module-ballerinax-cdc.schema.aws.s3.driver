@@ -152,8 +152,8 @@ subprojects {
 }
 
 tasks.register('build') {
-    dependsOn(':cdc.s3.driver-native:build')
-    dependsOn(':cdc.s3.driver-ballerina:build')
+    dependsOn(':cdc.schema.aws.s3.driver-native:build')
+    dependsOn(':cdc.schema.aws.s3.driver-ballerina:build')
 }
 
 release {

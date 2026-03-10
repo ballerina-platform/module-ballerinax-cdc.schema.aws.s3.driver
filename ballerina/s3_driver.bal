@@ -21,4 +21,4 @@
 // `AmazonS3InternalSchemaStorage` configuration option:
 //
 //   import ballerinax/cdc;
-//   import ballerinax/cdc.s3.driver as _;
+//   import ballerinax/cdc.aws.s3.driver as _;

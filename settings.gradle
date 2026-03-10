@@ -41,13 +41,13 @@ plugins {
     id "com.gradle.enterprise" version "3.2"
 }
 
-rootProject.name = 'module-ballerinax-cdc.s3.driver'
+rootProject.name = 'module-ballerinax-cdc.schema.aws.s3.driver'
 
-include ':cdc.s3.driver-ballerina'
-include ':cdc.s3.driver-native'
+include ':cdc.schema.aws.s3.driver-ballerina'
+include ':cdc.schema.aws.s3.driver-native'
 
-project(':cdc.s3.driver-ballerina').projectDir = file("ballerina")
-project(':cdc.s3.driver-native').projectDir = file("native")
+project(':cdc.schema.aws.s3.driver-ballerina').projectDir = file("ballerina")
+project(':cdc.schema.aws.s3.driver-native').projectDir = file("native")
 
 gradleEnterprise {
     buildScan {
