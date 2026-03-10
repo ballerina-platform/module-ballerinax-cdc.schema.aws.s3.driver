@@ -144,7 +144,8 @@ subprojects {
             transitive = false
         }
 
-        // Commons Logging (transitive of httpclient, not in BRE)
+        // Commons Logging (transitive of httpclient)
+        // BRE's ballerina-rt fat jar contains commons-logging 1.1.1; driver needs 1.2 — keep to ensure correct version
         externalJars(group: 'commons-logging', name: 'commons-logging', version: "${commonsLoggingVersion}") {
             transitive = false
         }
