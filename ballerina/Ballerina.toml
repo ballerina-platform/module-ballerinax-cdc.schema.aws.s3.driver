@@ -1,0 +1,155 @@
+[package]
+org = "ballerinax"
+name = "cdc.schema.aws.s3.driver"
+version = "1.0.0"
+distribution = "2201.12.0"
+authors = ["Ballerina"]
+repository = "https://github.com/ballerina-platform/module-ballerinax-cdc.schema.aws.s3.driver"
+license = ["Apache-2.0"]
+
+[platform.java21]
+graalvmCompatible = true
+
+[[platform.java21.dependency]]
+groupId = "io.ballerina.lib"
+artifactId = "cdc.schema.aws.s3.driver-native"
+version = "1.0.0"
+path = "../native/build/libs/cdc.schema.aws.s3.driver-native-1.0.0-SNAPSHOT.jar"
+
+[[platform.java21.dependency]]
+groupId = "io.debezium"
+artifactId = "debezium-storage-s3"
+version = "3.0.8.Final"
+path = "./lib/debezium-storage-s3-3.0.8.Final.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "s3"
+version = "2.17.241"
+path = "./lib/s3-2.17.241.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "aws-xml-protocol"
+version = "2.17.241"
+path = "./lib/aws-xml-protocol-2.17.241.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "aws-query-protocol"
+version = "2.17.241"
+path = "./lib/aws-query-protocol-2.17.241.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "protocol-core"
+version = "2.17.241"
+path = "./lib/protocol-core-2.17.241.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "aws-core"
+version = "2.17.241"
+path = "./lib/aws-core-2.17.241.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "auth"
+version = "2.17.241"
+path = "./lib/auth-2.17.241.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "sdk-core"
+version = "2.17.241"
+path = "./lib/sdk-core-2.17.241.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "regions"
+version = "2.17.241"
+path = "./lib/regions-2.17.241.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "profiles"
+version = "2.17.241"
+path = "./lib/profiles-2.17.241.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "arns"
+version = "2.17.241"
+path = "./lib/arns-2.17.241.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "json-utils"
+version = "2.17.241"
+path = "./lib/json-utils-2.17.241.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "third-party-jackson-core"
+version = "2.17.241"
+path = "./lib/third-party-jackson-core-2.17.241.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "http-client-spi"
+version = "2.17.241"
+path = "./lib/http-client-spi-2.17.241.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "metrics-spi"
+version = "2.17.241"
+path = "./lib/metrics-spi-2.17.241.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "utils"
+version = "2.17.241"
+path = "./lib/utils-2.17.241.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "annotations"
+version = "2.17.241"
+path = "./lib/annotations-2.17.241.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "apache-client"
+version = "2.17.241"
+path = "./lib/apache-client-2.17.241.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.eventstream"
+artifactId = "eventstream"
+version = "1.0.1"
+path = "./lib/eventstream-1.0.1.jar"
+
+[[platform.java21.dependency]]
+groupId = "org.reactivestreams"
+artifactId = "reactive-streams"
+version = "1.0.3"
+path = "./lib/reactive-streams-1.0.3.jar"
+
+[[platform.java21.dependency]]
+groupId = "org.apache.httpcomponents"
+artifactId = "httpclient"
+version = "4.5.13"
+path = "./lib/httpclient-4.5.13.jar"
+
+[[platform.java21.dependency]]
+groupId = "org.apache.httpcomponents"
+artifactId = "httpcore"
+version = "4.4.13"
+path = "./lib/httpcore-4.4.13.jar"
+
+[[platform.java21.dependency]]
+groupId = "commons-logging"
+artifactId = "commons-logging"
+version = "1.2"
+path = "./lib/commons-logging-1.2.jar"

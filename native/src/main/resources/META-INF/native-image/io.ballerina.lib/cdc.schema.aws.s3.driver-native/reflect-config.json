@@ -1,0 +1,6 @@
+[
+{
+  "name":"io.debezium.storage.s3.history.S3SchemaHistory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+}
+]
