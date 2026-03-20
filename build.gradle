@@ -23,7 +23,7 @@ plugins {
     id 'net.researchgate.release'
 }
 
-description = 'Ballerina - CDC Amazon S3 Driver'
+description = 'Ballerina - CDC Schema Amazon S3 Driver'
 
 ext.ballerinaLangVersion = project.ballerinaLangVersion
 

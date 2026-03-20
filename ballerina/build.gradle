@@ -22,7 +22,7 @@ plugins {
     id 'io.ballerina.plugin'
 }
 
-description = 'Ballerina - CDC Amazon S3 Driver'
+description = 'Ballerina - CDC Schema Amazon S3 Driver'
 
 def packageName = "cdc.schema.aws.s3.driver"
 def packageOrg = "ballerinax"

@@ -20,7 +20,7 @@ plugins {
     id 'java'
 }
 
-description = 'Ballerina - CDC Amazon S3 Driver Java Native'
+description = 'Ballerina - CDC Schema Amazon S3 Driver Java Native'
 
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
