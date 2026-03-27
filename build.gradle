@@ -149,6 +149,43 @@ subprojects {
         externalJars(group: 'commons-logging', name: 'commons-logging', version: "${commonsLoggingVersion}") {
             transitive = false
         }
+
+        externalJars(group: 'software.amazon.awssdk', name: 'http-auth', version: "${awsSdkVersion}") {
+            transitive = false
+        }
+        externalJars(group: 'software.amazon.awssdk', name: 'http-auth-spi', version: "${awsSdkVersion}") {
+            transitive = false
+        }
+        externalJars(group: 'software.amazon.awssdk', name: 'http-auth-aws', version: "${awsSdkVersion}") {
+            transitive = false
+        }
+        externalJars(group: 'software.amazon.awssdk', name: 'http-auth-aws-eventstream', version: "${awsSdkVersion}") {
+            transitive = false
+        }
+        externalJars(group: 'software.amazon.awssdk', name: 'identity-spi', version: "${awsSdkVersion}") {
+            transitive = false
+        }
+        externalJars(group: 'software.amazon.awssdk', name: 'checksums', version: "${awsSdkVersion}") {
+            transitive = false
+        }
+        externalJars(group: 'software.amazon.awssdk', name: 'checksums-spi', version: "${awsSdkVersion}") {
+            transitive = false
+        }
+        externalJars(group: 'software.amazon.awssdk', name: 'endpoints-spi', version: "${awsSdkVersion}") {
+            transitive = false
+        }
+        externalJars(group: 'software.amazon.awssdk', name: 'retries', version: "${awsSdkVersion}") {
+            transitive = false
+        }
+        externalJars(group: 'software.amazon.awssdk', name: 'retries-spi', version: "${awsSdkVersion}") {
+            transitive = false
+        }
+        externalJars(group: 'software.amazon.awssdk', name: 'crt-core', version: "${awsSdkVersion}") {
+            transitive = false
+        }
+        externalJars(group: 'software.amazon.awssdk', name: 'utils-lite', version: "${awsSdkVersion}") {
+            transitive = false
+        }
     }
 }
 
