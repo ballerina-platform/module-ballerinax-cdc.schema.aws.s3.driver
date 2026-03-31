@@ -26,104 +26,104 @@ path = "./lib/debezium-storage-s3-3.0.8.Final.jar"
 [[platform.java21.dependency]]
 groupId = "software.amazon.awssdk"
 artifactId = "s3"
-version = "2.17.241"
-path = "./lib/s3-2.17.241.jar"
+version = "2.38.0"
+path = "./lib/s3-2.38.0.jar"
 
 [[platform.java21.dependency]]
 groupId = "software.amazon.awssdk"
 artifactId = "aws-xml-protocol"
-version = "2.17.241"
-path = "./lib/aws-xml-protocol-2.17.241.jar"
+version = "2.38.0"
+path = "./lib/aws-xml-protocol-2.38.0.jar"
 
 [[platform.java21.dependency]]
 groupId = "software.amazon.awssdk"
 artifactId = "aws-query-protocol"
-version = "2.17.241"
-path = "./lib/aws-query-protocol-2.17.241.jar"
+version = "2.38.0"
+path = "./lib/aws-query-protocol-2.38.0.jar"
 
 [[platform.java21.dependency]]
 groupId = "software.amazon.awssdk"
 artifactId = "protocol-core"
-version = "2.17.241"
-path = "./lib/protocol-core-2.17.241.jar"
+version = "2.38.0"
+path = "./lib/protocol-core-2.38.0.jar"
 
 [[platform.java21.dependency]]
 groupId = "software.amazon.awssdk"
 artifactId = "aws-core"
-version = "2.17.241"
-path = "./lib/aws-core-2.17.241.jar"
+version = "2.38.0"
+path = "./lib/aws-core-2.38.0.jar"
 
 [[platform.java21.dependency]]
 groupId = "software.amazon.awssdk"
 artifactId = "auth"
-version = "2.17.241"
-path = "./lib/auth-2.17.241.jar"
+version = "2.38.0"
+path = "./lib/auth-2.38.0.jar"
 
 [[platform.java21.dependency]]
 groupId = "software.amazon.awssdk"
 artifactId = "sdk-core"
-version = "2.17.241"
-path = "./lib/sdk-core-2.17.241.jar"
+version = "2.38.0"
+path = "./lib/sdk-core-2.38.0.jar"
 
 [[platform.java21.dependency]]
 groupId = "software.amazon.awssdk"
 artifactId = "regions"
-version = "2.17.241"
-path = "./lib/regions-2.17.241.jar"
+version = "2.38.0"
+path = "./lib/regions-2.38.0.jar"
 
 [[platform.java21.dependency]]
 groupId = "software.amazon.awssdk"
 artifactId = "profiles"
-version = "2.17.241"
-path = "./lib/profiles-2.17.241.jar"
+version = "2.38.0"
+path = "./lib/profiles-2.38.0.jar"
 
 [[platform.java21.dependency]]
 groupId = "software.amazon.awssdk"
 artifactId = "arns"
-version = "2.17.241"
-path = "./lib/arns-2.17.241.jar"
+version = "2.38.0"
+path = "./lib/arns-2.38.0.jar"
 
 [[platform.java21.dependency]]
 groupId = "software.amazon.awssdk"
 artifactId = "json-utils"
-version = "2.17.241"
-path = "./lib/json-utils-2.17.241.jar"
+version = "2.38.0"
+path = "./lib/json-utils-2.38.0.jar"
 
 [[platform.java21.dependency]]
 groupId = "software.amazon.awssdk"
 artifactId = "third-party-jackson-core"
-version = "2.17.241"
-path = "./lib/third-party-jackson-core-2.17.241.jar"
+version = "2.38.0"
+path = "./lib/third-party-jackson-core-2.38.0.jar"
 
 [[platform.java21.dependency]]
 groupId = "software.amazon.awssdk"
 artifactId = "http-client-spi"
-version = "2.17.241"
-path = "./lib/http-client-spi-2.17.241.jar"
+version = "2.38.0"
+path = "./lib/http-client-spi-2.38.0.jar"
 
 [[platform.java21.dependency]]
 groupId = "software.amazon.awssdk"
 artifactId = "metrics-spi"
-version = "2.17.241"
-path = "./lib/metrics-spi-2.17.241.jar"
+version = "2.38.0"
+path = "./lib/metrics-spi-2.38.0.jar"
 
 [[platform.java21.dependency]]
 groupId = "software.amazon.awssdk"
 artifactId = "utils"
-version = "2.17.241"
-path = "./lib/utils-2.17.241.jar"
+version = "2.38.0"
+path = "./lib/utils-2.38.0.jar"
 
 [[platform.java21.dependency]]
 groupId = "software.amazon.awssdk"
 artifactId = "annotations"
-version = "2.17.241"
-path = "./lib/annotations-2.17.241.jar"
+version = "2.38.0"
+path = "./lib/annotations-2.38.0.jar"
 
 [[platform.java21.dependency]]
 groupId = "software.amazon.awssdk"
 artifactId = "apache-client"
-version = "2.17.241"
-path = "./lib/apache-client-2.17.241.jar"
+version = "2.38.0"
+path = "./lib/apache-client-2.38.0.jar"
 
 [[platform.java21.dependency]]
 groupId = "software.amazon.eventstream"
