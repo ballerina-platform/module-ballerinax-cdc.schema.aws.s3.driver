@@ -125,6 +125,79 @@ artifactId = "apache-client"
 version = "@aws.sdk.version@"
 path = "./lib/apache-client-@aws.sdk.version@.jar"
 
+# AWS SDK v2 runtime modules required by the S3 client and authentication chain.
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "http-auth"
+version = "@aws.sdk.version@"
+path = "./lib/http-auth-@aws.sdk.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "http-auth-spi"
+version = "@aws.sdk.version@"
+path = "./lib/http-auth-spi-@aws.sdk.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "http-auth-aws"
+version = "@aws.sdk.version@"
+path = "./lib/http-auth-aws-@aws.sdk.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "http-auth-aws-eventstream"
+version = "@aws.sdk.version@"
+path = "./lib/http-auth-aws-eventstream-@aws.sdk.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "identity-spi"
+version = "@aws.sdk.version@"
+path = "./lib/identity-spi-@aws.sdk.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "checksums"
+version = "@aws.sdk.version@"
+path = "./lib/checksums-@aws.sdk.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "checksums-spi"
+version = "@aws.sdk.version@"
+path = "./lib/checksums-spi-@aws.sdk.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "endpoints-spi"
+version = "@aws.sdk.version@"
+path = "./lib/endpoints-spi-@aws.sdk.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "retries"
+version = "@aws.sdk.version@"
+path = "./lib/retries-@aws.sdk.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "retries-spi"
+version = "@aws.sdk.version@"
+path = "./lib/retries-spi-@aws.sdk.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "crt-core"
+version = "@aws.sdk.version@"
+path = "./lib/crt-core-@aws.sdk.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "utils-lite"
+version = "@aws.sdk.version@"
+path = "./lib/utils-lite-@aws.sdk.version@.jar"
+
 [[platform.java21.dependency]]
 groupId = "software.amazon.eventstream"
 artifactId = "eventstream"

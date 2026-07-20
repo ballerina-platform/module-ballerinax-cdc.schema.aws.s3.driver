@@ -125,6 +125,79 @@ artifactId = "apache-client"
 version = "2.38.0"
 path = "./lib/apache-client-2.38.0.jar"
 
+# AWS SDK v2 runtime modules required by the S3 client and authentication chain.
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "http-auth"
+version = "2.38.0"
+path = "./lib/http-auth-2.38.0.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "http-auth-spi"
+version = "2.38.0"
+path = "./lib/http-auth-spi-2.38.0.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "http-auth-aws"
+version = "2.38.0"
+path = "./lib/http-auth-aws-2.38.0.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "http-auth-aws-eventstream"
+version = "2.38.0"
+path = "./lib/http-auth-aws-eventstream-2.38.0.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "identity-spi"
+version = "2.38.0"
+path = "./lib/identity-spi-2.38.0.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "checksums"
+version = "2.38.0"
+path = "./lib/checksums-2.38.0.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "checksums-spi"
+version = "2.38.0"
+path = "./lib/checksums-spi-2.38.0.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "endpoints-spi"
+version = "2.38.0"
+path = "./lib/endpoints-spi-2.38.0.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "retries"
+version = "2.38.0"
+path = "./lib/retries-2.38.0.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "retries-spi"
+version = "2.38.0"
+path = "./lib/retries-spi-2.38.0.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "crt-core"
+version = "2.38.0"
+path = "./lib/crt-core-2.38.0.jar"
+
+[[platform.java21.dependency]]
+groupId = "software.amazon.awssdk"
+artifactId = "utils-lite"
+version = "2.38.0"
+path = "./lib/utils-lite-2.38.0.jar"
+
 [[platform.java21.dependency]]
 groupId = "software.amazon.eventstream"
 artifactId = "eventstream"
